@@ -1,0 +1,133 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 11px;
+    color: #696969;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+img {
+    height: 90px;
+    border-radius: 50%;
+}
+
+#header-text {
+    margin-left: 6.5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+body {
+    width: 100%;
+}
+
+#main-div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#employees {
+    padding-left: 5%;
+    margin-bottom: 55px;
+
+}
+
+#employee-tile {
+    display: flex;
+    height: 100%;
+    margin: auto;
+    flex-flow: wrap;
+    padding: 0;
+}
+
+
+.employee-item {
+    float: left;
+    width: 315px;
+    padding: 20px;
+    list-style: none;
+    border: 1.2px solid rgba(128, 128, 128, 0.23);
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 1px rgba(184, 184, 184, 0.38);
+    margin: 15px;
+}
+
+.employee-item:hover {
+    cursor: pointer;
+    background-color: rgba(230, 230, 230, 0.32);
+}
+
+.employee-details {
+    float: right;
+}
+
+.modal {
+    width: 30%;
+    border: 1.2px solid rgba(128, 128, 128, 0.23);
+    border-radius: 5px;
+}
+
+.modal li {
+    list-style: none;
+}
+
+.modal img {
+    margin-left: 37%;
+}
+
+.modal p,
+.modal h1 {
+    text-align: center;    
+    margin: 13px;
+}
+
+.modal div {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1.2px solid rgba(128, 128, 128, 0.23);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#header-search {
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+#header-search>h1,
+#header-search>input {
+    display: inline;
+}
+
+#header-text {
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border: 1.2px solid rgba(128, 128, 128, 0.23);
+    box-shadow: 3px 3px 8px 1px rgba(184, 184, 184, 0.38);
+    border-radius: 5px;
+    position: absolute;
+    right: 204px;
+    padding-left: 8px;
+}
+
